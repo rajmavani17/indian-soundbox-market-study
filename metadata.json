@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Indian Soundbox Market Study",
+  "description": "Interactive case study comparing payment soundboxes in India, analyzing physical features, business models, and market positioning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

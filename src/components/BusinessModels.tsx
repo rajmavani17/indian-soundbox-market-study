@@ -202,6 +202,84 @@ export default function BusinessModels() {
           </div>
         ))}
       </div>
+
+      {/* NPCI Interoperable Infrastructure Disruption */}
+      <div className="mt-12 bg-gradient-to-br from-indigo-900 to-slate-900 rounded-2xl p-6 md:p-8 shadow-xl border border-indigo-500/30 relative overflow-hidden">
+        {/* Abstract Background Element */}
+        <div className="absolute -top-24 -right-24 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl"></div>
+        
+        <div className="relative z-10">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center border border-indigo-500/30 text-indigo-300">
+              <RefreshCw className="w-6 h-6" />
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-white">The Future: NPCI's Interoperable Infrastructure</h3>
+              <p className="text-indigo-200 font-medium mt-1">Common backend infrastructure for UPI soundboxes</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <h4 className="text-lg font-bold text-white mb-4 flex items-center">
+                <Target className="w-5 h-5 mr-2 text-rose-400" />
+                The Disruption
+              </h4>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <div className="w-1.5 h-1.5 rounded-full bg-rose-400 mt-2 mr-3 shrink-0"></div>
+                  <p className="text-slate-300 text-sm leading-relaxed"><strong>Common Platform:</strong> NPCI is building an infrastructure to allow a single device to process payments across any payment app (Paytm, PhonePe, GPay).</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="w-1.5 h-1.5 rounded-full bg-rose-400 mt-2 mr-3 shrink-0"></div>
+                  <p className="text-slate-300 text-sm leading-relaxed"><strong>End to Hardware Monopolies:</strong> Currently, fintechs trap merchants with closed-ecosystem hardware, charging monthly rentals. The new framework breaks this lock-in.</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="w-1.5 h-1.5 rounded-full bg-rose-400 mt-2 mr-3 shrink-0"></div>
+                  <p className="text-slate-300 text-sm leading-relaxed"><strong>Reduced Duplication:</strong> Merchants will no longer need 3-4 separate devices cluttering their counter space.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-indigo-500/10 backdrop-blur-sm rounded-xl p-6 border border-indigo-400/20">
+              <h4 className="text-lg font-bold text-indigo-300 mb-4 flex items-center">
+                <TrendingUp className="w-5 h-5 mr-2 text-emerald-400" />
+                How It's Beneficial To Us
+              </h4>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <div className="bg-emerald-400/20 p-1.5 rounded-md mr-3 shrink-0 mt-0.5">
+                    <PiggyBank className="w-4 h-4 text-emerald-400" />
+                  </div>
+                  <div>
+                    <strong className="text-white text-sm block mb-0.5">Drastically Lower CapEx</strong>
+                    <p className="text-slate-300 text-sm leading-relaxed">We don't need to heavily subsidize proprietary hardware to acquire merchants. We can leverage standard NPCI-compatible devices.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div className="bg-emerald-400/20 p-1.5 rounded-md mr-3 shrink-0 mt-0.5">
+                    <Workflow className="w-4 h-4 text-emerald-400" />
+                  </div>
+                  <div>
+                    <strong className="text-white text-sm block mb-0.5">Level Playing Field</strong>
+                    <p className="text-slate-300 text-sm leading-relaxed">Incumbents (Paytm/PhonePe) will lose their hardware moat. We can acquire their merchants simply by offering a better software/settlement experience on the same box.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div className="bg-emerald-400/20 p-1.5 rounded-md mr-3 shrink-0 mt-0.5">
+                    <BarChart2 className="w-4 h-4 text-emerald-400" />
+                  </div>
+                  <div>
+                    <strong className="text-white text-sm block mb-0.5">Pivot to SaaS & AI Value</strong>
+                    <p className="text-slate-300 text-sm leading-relaxed">We can shift our monetization model from "Hardware Rental" to "Value-Added Services" (e.g., AI-driven insights, credit scoring, inventory management, embedded lending).</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

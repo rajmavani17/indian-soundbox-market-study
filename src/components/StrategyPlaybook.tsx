@@ -1,5 +1,4 @@
-import React from 'react';
-import { Target, Lightbulb, Calculator, Building2, Megaphone, Server, Store, Landmark, Coins, TrendingUp } from 'lucide-react';
+import { Building2, Calculator, Coins, Landmark, Lightbulb, Megaphone, Server, Store, Target, TrendingUp } from 'lucide-react';
 
 export default function StrategyPlaybook() {
   return (
@@ -89,11 +88,91 @@ export default function StrategyPlaybook() {
           <h3 className="text-xl font-bold text-slate-900">Detailed Business Models</h3>
         </div>
         <div className="space-y-8">
-          
+
           {/* Model 1 */}
+          <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6 md:p-8 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-200/50 rounded-full blur-3xl -mr-10 -mt-10"></div>
+            <h4 className="text-lg font-bold text-indigo-950 mb-6 flex items-center gap-3 relative z-10">
+              <span className="bg-indigo-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm shadow-md">1</span>
+              The NPCI Interoperability Ecosystem (OEM & TSP Partnership)
+            </h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-indigo-600 mb-3">The Ecosystem Shift</h5>
+                <p className="text-sm text-slate-700 leading-relaxed">NPCI is building a unified, interoperable system allowing a single device to confirm transactions from any QR code (Paytm, PhonePe, BharatPe). With India processing <strong>22.34 billion UPI transactions in April 2026</strong> under zero MDR, NPCI's move shatters the fragile hardware rental model, reducing merchant "hardware clutter" and ending multiple ₹100–₹150/month subscriptions.</p>
+              </div>
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-indigo-600 mb-3">The Playbook</h5>
+                <p className="text-sm text-slate-700 leading-relaxed mb-4">Position your company as the official hardware/software bridge. Build hardware that complies with NPCI's new interoperability specs. Apply to become an <strong>NPCI-Certified TSP</strong> or <strong>Approved OEM</strong>, then pitch banks to white-label your agnostic box.</p>
+                <div className="bg-indigo-100/50 border border-indigo-200 p-3 rounded-lg flex items-start gap-2">
+                  <div className="bg-indigo-600 text-white p-1 rounded mt-0.5 shrink-0"><Lightbulb className="w-3 h-3" /></div>
+                  <p className="text-xs text-indigo-900 font-medium leading-relaxed"><strong>Important Advantage:</strong> By operating directly with NPCI gateways, your device plays audio for ANY payment made to the merchant's core identity (VPA), completely bypassing specific apps and underlying bank accounts.</p>
+                </div>
+              </div>
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-indigo-600 mb-3">The Money</h5>
+                <p className="text-sm text-indigo-900 font-bold leading-relaxed flex items-start gap-1">
+                  <TrendingUp className="w-4 h-4 shrink-0 mt-0.5 text-indigo-600" />
+                  <span>Shift from risky B2C subsidies to stable B2B infrastructure contracts. You earn massive upfront bulk-hardware sales revenue from banks, plus a recurring TSP licensing fee (e.g., ₹20-₹50/device/month) to maintain the NPCI webhook routing and device management dashboard.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Model 2 */}
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 md:p-8">
             <h4 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">1</span>
+              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">2</span>
+              The SaaS & Credit Pivot (Post-Hardware Era)
+            </h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Problem</h5>
+                <p className="text-sm text-slate-700 leading-relaxed">As Pranav Pai of 3one4 Capital notes, standardizing devices threatens the unit economics of UPI apps. <i>"If Soundbox revenue also falls, smaller UPI apps will find it harder to justify deep merchant investments unless they can monetise through credit, working capital, SaaS, advertisements or commerce."</i></p>
+              </div>
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Playbook</h5>
+                <p className="text-sm text-slate-700 leading-relaxed">Let the banks and OEMs distribute the unified NPCI soundboxes. You build the value layer on top. Provide merchants with software that connects to the unified soundbox, offering high-value features like automated ledgering, inventory alerts, and seamless access to working capital loans based on settlement data.</p>
+              </div>
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Money</h5>
+                <p className="text-sm text-emerald-700 font-bold leading-relaxed flex items-start gap-1">
+                  <TrendingUp className="w-4 h-4 shrink-0 mt-0.5" />
+                  <span>You drastically lower CapEx by ignoring hardware manufacturing entirely. Monetize through high-margin SaaS bundles or embedded credit spreads, riding on top of the open-network hardware box distributed by the NPCI ecosystem.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Model 3 */}
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 md:p-8">
+            <h4 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-3">
+              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">3</span>
+              The Global Export Play (Middle East & SEA)
+            </h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Problem</h5>
+                <p className="text-sm text-slate-700 leading-relaxed">The Indian market is hyper-competitive and saturated with VC-subsidized hardware. Meanwhile, millions of Indian expats and tourists travel to Dubai, Abu Dhabi, and Singapore, where local merchants struggle with cross-border payment friction and lack instant audio confirmation systems.</p>
+              </div>
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Playbook</h5>
+                <p className="text-sm text-slate-700 leading-relaxed">Piggyback on NPCI International's push. Export proven Indian soundbox hardware to the Middle East and Southeast Asia. Partner with local acquirers (e.g., Network International in UAE, PayNow in Singapore) to provide multi-currency soundboxes that announce UPI payments for tourists, alongside local wallet payments.</p>
+              </div>
+              <div>
+                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Money</h5>
+                <p className="text-sm text-emerald-700 font-bold leading-relaxed flex items-start gap-1">
+                  <TrendingUp className="w-4 h-4 shrink-0 mt-0.5" />
+                  <span>Instead of fighting for ₹49/month in India, you charge a premium global SaaS fee of $10 to $15 per month (₹800 - ₹1200) to merchants in Dubai or Singapore. The manufacturing cost remains Indian (~₹1500), but the ARPU is 15x higher.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Model 4 */}
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 md:p-8">
+            <h4 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-3">
+              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">4</span>
               The B2B SaaS Model (Zero Merchant CAC)
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -112,32 +191,10 @@ export default function StrategyPlaybook() {
             </div>
           </div>
 
-          {/* Model 2 */}
+          {/* Model 5 */}
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 md:p-8">
             <h4 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">2</span>
-              The Ad-Network Model (Audio Real Estate)
-            </h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div>
-                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Problem</h5>
-                <p className="text-sm text-slate-700 leading-relaxed">Merchants hate paying the ₹125 monthly rental fee for a generic box that only confirms payments.</p>
-              </div>
-              <div>
-                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Playbook</h5>
-                <p className="text-sm text-slate-700 leading-relaxed">Treat the soundbox as a miniature billboard inside a store. Give the merchant the box for absolutely free (no setup fee, no rental). In exchange, every time a payment succeeds, the box plays a 2-second audio ad (e.g., "Payment of ₹100 received. Cool down with a Coca-Cola today.").</p>
-              </div>
-              <div>
-                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Money</h5>
-                <p className="text-sm text-emerald-700 font-bold leading-relaxed">A busy local kirana might do 100 transactions a day. You sell that audio real estate to FMCG brands at a CPM (Cost Per Mille) rate. 10,000 devices doing 100 txns/day = 1,000,000 daily ad impressions.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Model 3 */}
-          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 md:p-8">
-            <h4 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">3</span>
+              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">5</span>
               The Vertical SaaS Bundle (Premium Pricing)
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -156,52 +213,24 @@ export default function StrategyPlaybook() {
             </div>
           </div>
 
-          {/* Model 4 */}
+          {/* Model 6 */}
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 md:p-8">
             <h4 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">4</span>
-              The Lending Flywheel (The Giant's Game)
+              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">6</span>
+              The Ad-Network Model (Audio Real Estate)
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
                 <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Problem</h5>
-                <p className="text-sm text-slate-700 leading-relaxed">Unsecured merchant lending is incredibly risky. Default rates (NPAs) are usually very high because it is hard to guarantee daily collections.</p>
+                <p className="text-sm text-slate-700 leading-relaxed">Merchants hate paying the ₹125 monthly rental fee for a generic box that only confirms payments.</p>
               </div>
               <div>
                 <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Playbook</h5>
-                <p className="text-sm text-slate-700 leading-relaxed">The soundbox is a Trojan horse. Deploy boxes at a loss to force the merchant to process all their daily QR payments through your system. Partner with an NBFC to offer them a working capital loan based on their visible cash flow.</p>
+                <p className="text-sm text-slate-700 leading-relaxed">Treat the soundbox as a miniature billboard inside a store. Give the merchant the box for absolutely free (no setup fee, no rental). In exchange, every time a payment succeeds, the box plays a 2-second audio ad (e.g., "Payment of ₹100 received. Cool down with a Coca-Cola today.").</p>
               </div>
               <div>
                 <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Money</h5>
-                <p className="text-sm text-emerald-700 font-bold leading-relaxed flex items-start gap-1">
-                  <TrendingUp className="w-4 h-4 shrink-0 mt-0.5" />
-                  <span>The magic happens in collection: you auto-deduct the daily EMI from their incoming payments before settling the money into their bank account. The soundbox acts as an auto-recovery agent, ensuring near-zero default rates.</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Model 5 */}
-          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 md:p-8">
-            <h4 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-3">
-              <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">5</span>
-              The Global Export Play (Middle East & SEA)
-            </h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div>
-                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Problem</h5>
-                <p className="text-sm text-slate-700 leading-relaxed">The Indian market is hyper-competitive and saturated with VC-subsidized hardware. Meanwhile, millions of Indian expats and tourists travel to Dubai, Abu Dhabi, and Singapore, where local merchants struggle with cross-border payment friction and lack instant audio confirmation systems.</p>
-              </div>
-              <div>
-                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Playbook</h5>
-                <p className="text-sm text-slate-700 leading-relaxed">Piggyback on NPCI International's push. Export proven Indian soundbox hardware to the Middle East and Southeast Asia. Partner with local acquirers (e.g., Network International in UAE, PayNow in Singapore) to provide multi-currency soundboxes that announce UPI payments for tourists, alongside local wallet payments.</p>
-              </div>
-              <div>
-                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">The Money</h5>
-                <p className="text-sm text-emerald-700 font-bold leading-relaxed flex items-start gap-1">
-                  <TrendingUp className="w-4 h-4 shrink-0 mt-0.5" />
-                  <span>Instead of fighting for ₹49/month in India, you charge a premium global SaaS fee of $10 to $15 per month (₹800 - ₹1200) to merchants in Dubai or Singapore. The manufacturing cost remains Indian (~₹1500), but the ARPU is 15x higher.</span>
-                </p>
+                <p className="text-sm text-emerald-700 font-bold leading-relaxed">A busy local kirana might do 100 transactions a day. You sell that audio real estate to FMCG brands at a CPM (Cost Per Mille) rate. 10,000 devices doing 100 txns/day = 1,000,000 daily ad impressions.</p>
               </div>
             </div>
           </div>
